@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="fabric:/NeighbourDeliveryService" xmlns="http://schemas.microsoft.com/2011/01/fabric">
+  <Parameters>
+    <Parameter Name="NeighbourDeliveryData_PartitionCount" Value="1" />
+    <Parameter Name="NeighbourDeliveryData_MinReplicaSetSize" Value="3" />
+    <Parameter Name="NeighbourDeliveryData_TargetReplicaSetSize" Value="3" />
+    <Parameter Name="WebApi_PartitionCount" Value="1" />
+    <Parameter Name="WebApi_MinReplicaSetSize" Value="3" />
+    <Parameter Name="WebApi_TargetReplicaSetSize" Value="3" />
+  </Parameters>
+</Application>
